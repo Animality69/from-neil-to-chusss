@@ -26,7 +26,7 @@ function showPopup(message) {
 
 // Yes button click
 yesBtn.addEventListener("click", () => {
-  showPopup("Let's have a call tonight 🤭");
+  showPopup("Let's have a call tonight then 🤭");
   responseText.textContent = "";
   responseText.style.display = "block"; // show the text
 });
