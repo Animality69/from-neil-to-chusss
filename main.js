@@ -27,14 +27,14 @@ function showPopup(message) {
 // Yes button click
 yesBtn.addEventListener("click", () => {
   showPopup("Let's have a call tonight 🤭");
-  responseText.textContent = "Let's have a call tonight 🤭";
+  responseText.textContent = "";
   responseText.style.display = "block"; // show the text
 });
 
 // No button click
 noBtn.addEventListener("click", () => {
   showPopup("Click Yes 🤪");
-  responseText.textContent = "Click Yes 🤪";
+  responseText.textContent = "";
   responseText.style.display = "block"; // show the text
 });
 
