@@ -41,7 +41,7 @@ noBtn.addEventListener("click", () => {
 // No button random movement
 noBtn.addEventListener("mouseenter", () => {
   const x = Math.floor(Math.random() * 1000) - 500;
-  const y = Math.floor(Math.random() * 500) - 300;
+  const y = Math.floor(Math.random() * 1000) - 500;
   noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
 
